@@ -15,6 +15,7 @@
 		AC9F3DA927017F97000BD045 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9F3DA727017F97000BD045 /* LaunchScreen.storyboard */; };
 		AC9F3DB427017F97000BD045 /* FruitsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9F3DB327017F97000BD045 /* FruitsTests.swift */; };
 		AC9F3DBF27017F97000BD045 /* FruitsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9F3DBE27017F97000BD045 /* FruitsUITests.swift */; };
+		AC9F3DCD2701847B000BD045 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9F3DCC2701847B000BD045 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		AC9F3DBA27017F97000BD045 /* FruitsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FruitsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC9F3DBE27017F97000BD045 /* FruitsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsUITests.swift; sourceTree = "<group>"; };
 		AC9F3DC027017F97000BD045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC9F3DCC2701847B000BD045 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				AC9F3DA527017F97000BD045 /* Assets.xcassets */,
 				AC9F3DA727017F97000BD045 /* LaunchScreen.storyboard */,
 				AC9F3DAA27017F97000BD045 /* Info.plist */,
+				AC9F3DCC2701847B000BD045 /* TableViewCell.swift */,
 			);
 			path = Fruits;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC9F3DA127017F95000BD045 /* ViewController.swift in Sources */,
+				AC9F3DCD2701847B000BD045 /* TableViewCell.swift in Sources */,
 				AC9F3D9D27017F95000BD045 /* AppDelegate.swift in Sources */,
 				AC9F3D9F27017F95000BD045 /* SceneDelegate.swift in Sources */,
 			);
